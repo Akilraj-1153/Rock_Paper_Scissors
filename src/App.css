@@ -1,38 +1,141 @@
-.App {
+body {
+  background-color: #ffe4b5;
   text-align: center;
+  height: 100vh;
+  font-family: 'Courier New', Courier, monospace;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Title{
+  font-size: 70px;
+  margin-top: -5px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.playerip{
+  margin-top: -20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.inputbutton{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+ 
+}
+.inputbutton button,button,.resultbox{
+    background-color: #ffdead;
+    height: 100px;
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid #8b4513;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    transition: background-color 0.3s ease;
+}
+.comchoose:hover{
+  cursor: none;
+  background-color: #deb887;
+}
+button:hover {
+  background-color: #deb887;
+}
+.Reportbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.report,.scorecard{
+  border-radius: 10px;
+  border: 2px solid #8b4513;
+  margin-top: 30px;
+  height:100px ;
+  background-color: #ffdead;
+}
+.report{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 700px;
+}
+.scorecard{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 500px;
+}
+.result{
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.resultbox{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 700px;
 }
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  body{
+  font-weight: bold;
+  }
+  .inputbutton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   
+  }
+  .inputbutton button,button{
+    background-color: #ffdead;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid #8b4513;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #deb887;
+}
+.Reportbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center  
+}
+.report,.scorecard{
+  width: 400px;
+  height: 50px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.scorecard{
+  margin-top: -10px;
+
+}
+.result{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+.resultbox{
+  display: flex;
+  height: 70px;
+  flex-direction: column;
+  width: 400px;
+  
+}
+.result button{
+  width: 300px;
+}
 }
