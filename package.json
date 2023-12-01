@@ -1,5 +1,6 @@
 {
   "name": "rps",
+  "homepage": "https://github.com/Akilraj-1153/React-js-Rock_paper_scissors",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
