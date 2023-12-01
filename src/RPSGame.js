@@ -79,7 +79,7 @@ function RPSGame() {
 
   return (
     <div>
-      <h1 className='Title'>ROCK PAPER SCISSOR</h1>
+      <h1 className='Title'>ROCK PAPER SCISSOR By <a href='https://github.com/Akilraj-1153'>AKIL</a></h1>
       <div className='playerip'>
         <h2>CHOOSE YOUR TOOL</h2>
         <div className='inputbutton'>
