@@ -105,6 +105,11 @@ button:hover {
   body {
     font-weight: bold;
   }
+  .Title{
+    margin-top: 40px;
+    font-size: 40px;
+    padding: 20px;
+  }
   .inputbutton {
     display: flex;
     flex-direction: column;
