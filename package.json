@@ -1,6 +1,7 @@
 {
+  
   "name": "rps",
-  "homepage": "https://Akilraj-1153.github.io/React-js-Rock_paper_scissors",
+  "homepage": "https://Akilraj-1153.github.io/Rock_Paper_Scissors",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -39,6 +40,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.0"
+    "gh-pages": "^6.1.1"
   }
 }
